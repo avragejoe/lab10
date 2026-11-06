@@ -144,7 +144,7 @@ void loop(){
   // Touch sensor (interrupt)
   if (touchFlag == true){
     touchFlag = false;
-    touchCallback();   // FIX 6: was missing ()
+    touchCallback();   
   }
 
   // Timer
