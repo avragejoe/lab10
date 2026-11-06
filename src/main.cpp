@@ -19,7 +19,7 @@ volatile bool buttonBFlag = false;
 volatile unsigned long lastInterruptB = 0;
 int pressCountB = 0;
 
-const int TOUCH_THRESHOLD = 752;   
+const int TOUCH_THRESHOLD = 535;   
 
 typedef void (*Callback)();
 Callback buttonACallback;
